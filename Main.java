@@ -1,5 +1,6 @@
 class Main {
   public static void main(String[] args) {
+    //ciao, questa è una prova
     System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
     Matrice m = new Matrice("PrOVa");
     Vigenere v = new Vigenere(0, 12, 0, 12, m);
